@@ -19,14 +19,7 @@
     </v-app-bar>
     <v-navigation-drawer v-model="drawer" app dark class="">
       <v-layout column align-center>
-        <!-- <v-flex class="mt-10">
-          <img
-            src="../assets/easternname.png"
-            alt="Eastern"
-            width="180px;"
-            height="50px;"
-          />
-        </v-flex> -->
+      
       </v-layout>
 
       <v-list color="transparent">
@@ -103,7 +96,7 @@ export default {
       },
       { icon: "turned_in_not", text: "User", route: "/user" },
 
-      { icon: "leaderboard", text: "Link 2", route: "/link2" },
+      { icon: "leaderboard", text: "Brand", route: "/brand" },
     ],
   }),
   components: {},

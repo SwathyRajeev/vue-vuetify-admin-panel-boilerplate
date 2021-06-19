@@ -24,6 +24,31 @@ const routes = [
     meta: {
       requireAuth: true,
     },
+ 
+  },
+  {
+    path: "/brand",
+    name: "Brand",
+    component: () => import("../views/MasterData/Brand.vue"),
+    meta: {
+      requireAuth: true,
+    },
+  },
+  {
+    path: "/state",
+    name: "State",
+    component: () => import("../views/MasterData/State.vue"),
+    meta: {
+      requireAuth: true,
+    },
+  },
+  {
+    path: "/district",
+    name: "District",
+    component: () => import("../views/MasterData/District.vue"),
+    meta: {
+      requireAuth: true,
+    },
   },
 ];
 

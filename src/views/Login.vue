@@ -72,9 +72,6 @@ export default {
 .container {
   align-items: center;
   justify-content: center;
-  /* background: url("../assets/login.jpg"); */
-  /* background: linear-gradient(0deg, rgba(8, 8, 8, 0.8), rgba(8, 8, 8, 0.8)),
-    url("../assets/login.jpg"); */
 }
 
 .page-container {
